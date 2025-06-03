@@ -76,6 +76,11 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 **Note 1: When calling this API on other markets than Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br>
 **Note 2: Account number in `KES` is required only when `type` is `PAYBILL`**
 
+### Banks
+This endpoint is used to get list of banks supported in `NGN` market.    
+
+`POST {{uri}}/v1/banks`
+
 ### Status
 `POST {{uri}}/v1/status`
 
