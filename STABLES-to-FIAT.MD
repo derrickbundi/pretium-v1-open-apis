@@ -1,13 +1,14 @@
-# PRETIUM OPEN API DOCUMENTATION
+# API DOCUMENTATION
 This documentation provides a guide on how to integrate with Pretium's open APIs.
 
 ## To Get Started
 Reach out our tech team `hello@pretium.africa` for provision of `base_uri`, `x-api-key` and `settlement wallet address`
 
 ### Authorization Required
-This endpoint requires API key authorization. Make sure to include `x-api-key` in the headers of all your requests.
+All endpoints require API key authorization. Ensure that you include the `x-api-key` header in every request.
 
 ### Exchange Rates
+This endpoint retrieves exchange rates and can be used to calculate fiat equivalent for a given stablecoin amount. <br><br>
 `POST {{uri}}/v1/exchange-rate`
 
 #### Body Params
