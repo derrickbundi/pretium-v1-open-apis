@@ -1,3 +1,5 @@
+![My Image](USDT-FIAT.png)
+
 # API DOCUMENTATION
 This documentation provides a guide on how to integrate with Pretium's open APIs.
 
