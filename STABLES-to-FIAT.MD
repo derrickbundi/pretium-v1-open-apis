@@ -27,7 +27,7 @@ This endpoint is used to validate a merchant code, mobile number, or bank accoun
 | Params | Countries | Required |
 | --- | --- | --- |
 | type | KES | Yes |
-| shortcode | KES, UGX, & UGX | Yes |
+| shortcode | KES, UGX & GHS | Yes |
 | mobile_network | KES, UGX & GHS | Yes |
 | account_number | NGN | Yes |
 | bank_code | NGN | Yes |
@@ -56,7 +56,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | --- | --- | --- |
 | transaction_hash | All | Yes |
 | amount | All | Yes |
-| shortcode | KES, UGX, & UGX | Yes |
+| shortcode | KES, UGX & GHS | Yes |
 | account_number | KES & NGN | Yes |
 | type | KES | Yes |
 | mobile_network | KES, UGX & GHS | Yes |
