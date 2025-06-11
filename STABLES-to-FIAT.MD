@@ -66,7 +66,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | callback_url | All | No |
 | chain | All | No |
 
-- Chain: `CELO` or `BASE`
+- Chain: `CELO`, `BASE` or `STELLAR`
 
 ##### Sample
 ```javascript
@@ -80,7 +80,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 ```
 
 
-**Note 1: When calling this API on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br>
+**Note 1: When calling this API on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br> <br>
 **Note 2: Account number in `KES` is required only when `type` is `PAYBILL`**
 
 ### Banks
@@ -100,7 +100,8 @@ This endpoint is used to get list of banks supported in `NGN` market.
 
 **Note: When calling this API on other markets than Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/status/UGX`**
 
-### Supported Chains
+### Supported Blockchain Networks
 - Celo
 - Base
+- Stellar
 
