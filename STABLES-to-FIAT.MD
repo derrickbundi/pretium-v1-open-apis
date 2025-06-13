@@ -66,7 +66,16 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | callback_url | All | No |
 | chain | All | No |
 
-- Chain: `CELO`, `BASE` or `STELLAR`
+#### Stablecoins supported
+
+| Chain | Asset |
+| --- | --- |
+| CELO | cUSD, USDC, USDT |
+| BASE | USDC |
+| STELLAR | USDC |
+
+
+
 
 ##### Sample
 ```javascript
