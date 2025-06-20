@@ -66,17 +66,6 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | callback_url | All | No |
 | chain | All | No |
 
-#### Stablecoins supported
-
-| Chain | Asset |
-| --- | --- |
-| CELO | cUSD, USDC, USDT |
-| BASE | USDC |
-| STELLAR | USDC |
-
-
-
-
 ##### Sample
 ```javascript
 {
@@ -88,6 +77,22 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 }
 ```
 
+##### Stablecoins supported
+
+| Chain | Asset |
+| --- | --- |
+| CELO | cUSD, USDC, USDT |
+| BASE | USDC |
+| STELLAR | USDC |
+
+##### Limits
+
+| Country | Lower limit | Higher limit|
+| --- | --- | --- |
+| KES | 20 | 250,000 |
+| NGN | 100 | 1,000,000 |
+| UGX | 500 | 5,000,000 |
+| GHS | 5 | 1,000 |
 
 **Note 1: When calling this API on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br> <br>
 **Note 2: Account number in `KES` is required only when `type` is `PAYBILL`**
