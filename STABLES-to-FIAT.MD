@@ -124,7 +124,7 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
 | GHS | 5 | 1,000 |
 
 **Note 1: When calling API `PAY` on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br> <br>
-**Note 2: Account number in `KES` is required only when `type` is `PAYBILL`**
+**Note 2: Account number in `KES` is required only when `type` is `PAYBILL`** <br> <br>
 **Note 3: The API `ONRAMP` callback URL receives two responses—payment receipt confirmation and stablecoin release confirmation.**
 
 ### Banks
