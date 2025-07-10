@@ -77,6 +77,35 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 }
 ```
 
+### Onramp (FIAT-to-Stables)
+This endpoint calls the Pretium payment protocol to initiate cash collection from the user, confirm receipt via mobile money or bank transfer, and release the equivalent amount in stablecoins. 
+
+`POST {{url}}/v1/onramp`
+| Params | Countries | Required |
+| --- | --- | --- |
+| shortcode | KES & UGX | Yes |
+| amount | All | Yes |
+| fee | All | No |
+| type | All | No |
+| mobile_network | KES & UGX | Yes |
+| callback_url | All | No |
+| chain | All | Yes |
+| asset | All | Yes |
+
+##### Sample
+```javascript
+{
+    "shortcode": "0799770833",
+    "amount": 100,
+    "fee": 10,
+    "mobile_network": "Safaricom",
+    "chain": "CELO",
+    "asset": "USDT",
+    "address": "0xE9c7cf1b0f7F68d1236284ebE6b5bc8CA43b11b8",
+    "callback_url": "https://pretium.africa"
+}
+```
+
 ##### Stablecoins supported
 
 | Chain | Asset |
@@ -94,8 +123,9 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | UGX | 500 | 5,000,000 |
 | GHS | 5 | 1,000 |
 
-**Note 1: When calling this API on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br> <br>
+**Note 1: When calling API `PAY` on other markets apart from Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/pay/UGX`** <br> <br>
 **Note 2: Account number in `KES` is required only when `type` is `PAYBILL`**
+**Note 3: The API `ONRAMP` callback URL receives two responses—payment receipt confirmation and stablecoin release confirmation.**
 
 ### Banks
 This endpoint is used to get list of banks supported in `NGN` market.    
