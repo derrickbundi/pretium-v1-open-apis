@@ -63,8 +63,8 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | account_name | NGN | Yes |
 | bank_name | NGN | Yes |
 | bank_code | NGN | Yes |
-| callback_url | All | No |
 | chain | All | No |
+| callback_url | All | No |
 
 ##### Sample
 ```javascript
@@ -73,6 +73,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
     "shortcode": "0799770833",
     "amount": "500",
     "type": "MOBILE",
+    "chain": "CELO",
     "callback_url": "https://pretium.africa/callback"
 }
 ```
