@@ -78,17 +78,20 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 }
 ```
 
+##### Countries Supported
+Kenya 🇰🇪, Nigeria🇳🇬, Ghana 🇬🇭, Uganda 🇺🇬 & Congo 🇨🇩
+
 ### Onramp (FIAT-to-Stables)
 This endpoint calls the Pretium payment protocol to initiate cash collection from the user, confirm receipt via mobile money or bank transfer, and release the equivalent amount in stablecoins. 
 
 `POST {{url}}/v1/onramp/{currency_code}`
 | Params | Countries | Required |
 | --- | --- | --- |
-| shortcode | KES & UGX | Yes |
+| shortcode | KES, CDF & UGX | Yes |
 | amount | All | Yes |
 | fee | All | No |
 | type | All | No |
-| mobile_network | KES & UGX | Yes |
+| mobile_network | KES, CDF & UGX | Yes |
 | callback_url | All | No |
 | chain | All | Yes |
 | asset | All | Yes |
@@ -106,6 +109,9 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
     "callback_url": "https://pretium.africa"
 }
 ```
+
+##### Countries Supported
+Kenya 🇰🇪, Uganda 🇺🇬 & Congo 🇨🇩
 
 ##### Stablecoins supported
 
