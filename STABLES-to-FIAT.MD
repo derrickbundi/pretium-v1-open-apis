@@ -56,6 +56,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | --- | --- | --- |
 | transaction_hash | All | Yes |
 | amount | All | Yes |
+| fee | All | No |
 | shortcode | KES, UGX & GHS | Yes |
 | account_number | KES & NGN | Yes |
 | type | KES | Yes |
