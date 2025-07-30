@@ -27,8 +27,8 @@ This endpoint is used to validate a merchant code, mobile number, or bank accoun
 | Params | Countries | Required |
 | --- | --- | --- |
 | type | KES | Yes |
-| shortcode | KES, UGX & GHS | Yes |
-| mobile_network | KES, UGX & GHS | Yes |
+| shortcode | KES, UGX, CDF & GHS | Yes |
+| mobile_network | KES, UGX, CDF & GHS | Yes |
 | account_number | NGN | Yes |
 | bank_code | NGN | Yes |
 
@@ -79,7 +79,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 ```
 
 ##### Countries Supported
-Kenya 🇰🇪, Nigeria🇳🇬, Ghana 🇬🇭, Uganda 🇺🇬 & Congo 🇨🇩
+Kenya 🇰🇪, Nigeria🇳🇬, Ghana 🇬🇭, Uganda 🇺🇬 & DR Congo 🇨🇩
 
 ### Onramp (FIAT-to-Stables)
 This endpoint calls the Pretium payment protocol to initiate cash collection from the user, confirm receipt via mobile money or bank transfer, and release the equivalent amount in stablecoins. 
@@ -111,7 +111,7 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
 ```
 
 ##### Countries Supported
-Kenya 🇰🇪, Uganda 🇺🇬 & Congo 🇨🇩
+Kenya 🇰🇪, Uganda 🇺🇬 & DR Congo 🇨🇩
 
 ##### Stablecoins supported
 
