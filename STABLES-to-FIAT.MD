@@ -41,7 +41,7 @@ This endpoint is used to validate a merchant code, mobile number, or bank accoun
 }
 ```
 
-- Mobile networks: `Safaricom`, `Airtel`, `MTN`, `AirtelTigo`, & `Telcel`
+- Mobile networks: `Safaricom`, `Airtel`, `MTN`, `AirtelTigo`, `Airtel Money`, `Orange Money`, `Mpesa` & `Telcel`
 - Type: `PAYBILL`, `BUY_GOODS` & `MOBILE`
 
 <br>
