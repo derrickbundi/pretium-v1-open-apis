@@ -48,7 +48,7 @@ This endpoint is used to validate a merchant code, mobile number, or bank accoun
 
 **Note: When validating markets other than Kenya, include the currency code in the `uri`, for example: `{{uri}}/v1/validation/UGX`**
 
-### Pay
+### Pay (Stables-to-FIAT)
 This endpoint calls the Pretium payment protocol to verify that the payment has been made to the settlement wallet and release the equivalent fiat.    
 
 `POST {{uri}}/v1/pay`
