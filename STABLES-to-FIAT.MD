@@ -27,8 +27,8 @@ This endpoint is used to validate a merchant code, mobile number, or bank accoun
 | Params | Countries | Required |
 | --- | --- | --- |
 | type | KES | Yes |
-| shortcode | KES, UGX, CDF, ETB & GHS | Yes |
-| mobile_network | KES, UGX, CDF, ETB & GHS | Yes |
+| shortcode | KES, UGX, CDF, MWK, ETB & GHS | Yes |
+| mobile_network | KES, UGX, CDF, MWK, ETB & GHS | Yes |
 | account_number | NGN | Yes |
 | bank_code | NGN | Yes |
 
@@ -57,10 +57,10 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 | transaction_hash | All | Yes |
 | amount | All | Yes |
 | fee | All | No |
-| shortcode | KES, UGX, ETB & GHS | Yes |
+| shortcode | KES, UGX, MWK, ETB & GHS | Yes |
 | account_number | KES & NGN | Yes |
 | type | KES | Yes |
-| mobile_network | KES, UGX, ETB & GHS | Yes |
+| mobile_network | KES, UGX, MWK, ETB & GHS | Yes |
 | account_name | NGN | Yes |
 | bank_name | NGN | Yes |
 | bank_code | NGN | Yes |
@@ -81,7 +81,7 @@ This endpoint calls the Pretium payment protocol to verify that the payment has 
 ```
 
 ##### Countries Supported
-Kenya 🇰🇪, Nigeria🇳🇬, Ghana 🇬🇭, Uganda 🇺🇬, DR Congo 🇨🇩 & Ethiopia 🇪🇹
+Kenya 🇰🇪, Nigeria🇳🇬, Ghana 🇬🇭, Uganda 🇺🇬, DR Congo 🇨🇩, Malawi 🇲🇼 & Ethiopia 🇪🇹
 
 ### Onramp (FIAT-to-Stables)
 This endpoint calls the Pretium payment protocol to initiate cash collection from the user, confirm receipt via mobile money or bank transfer, and release the equivalent amount in stablecoins. 
@@ -89,11 +89,11 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
 `POST {{url}}/v1/onramp/{currency_code}`
 | Params | Countries | Required |
 | --- | --- | --- |
-| shortcode | KES, CDF & UGX | Yes |
+| shortcode | KES, CDF, MWK & UGX | Yes |
 | amount | All | Yes |
 | fee | All | No |
 | type | All | No |
-| mobile_network | KES, CDF & UGX | Yes |
+| mobile_network | KES, CDF, MWK & UGX | Yes |
 | callback_url | All | No |
 | chain | All | Yes |
 | asset | All | Yes |
@@ -117,7 +117,7 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
  
 
 ##### Countries Supported
-Kenya 🇰🇪, Uganda 🇺🇬 & DR Congo 🇨🇩
+Kenya 🇰🇪, Uganda 🇺🇬, Malawi 🇲🇼 & DR Congo 🇨🇩
 
 ##### Stablecoins supported
 
