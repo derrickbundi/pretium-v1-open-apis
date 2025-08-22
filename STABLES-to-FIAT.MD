@@ -112,6 +112,10 @@ This endpoint calls the Pretium payment protocol to initiate cash collection fro
 }
 ```
 
+> `fee` params is used collect fees from partners' users and credited to your wallet. For example, include a 1,000 `fee` in the API request. Our payment protocol collects the `fee` + `amount` from the customer, credits your wallet with the `fee`, and releases the equivalent value of `amount` to your customer.
+
+ 
+
 ##### Countries Supported
 Kenya 🇰🇪, Uganda 🇺🇬 & DR Congo 🇨🇩
 
