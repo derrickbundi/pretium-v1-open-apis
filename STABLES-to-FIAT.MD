@@ -132,7 +132,8 @@ Kenya 🇰🇪, Uganda 🇺🇬, Malawi 🇲🇼 & DR Congo 🇨🇩
 | Country | Lower limit | Higher limit|
 | --- | --- | --- |
 | KES | 20 | 250,000 |
-| NGN | 100 | 1,000,000 |
+| NGN | 100 | 2,000,000 |
+| MWK | 100 | 5,000,000 |
 | UGX | 500 | 5,000,000 |
 | GHS | 5 | 1,000 |
 
