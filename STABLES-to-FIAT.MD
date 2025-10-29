@@ -125,6 +125,7 @@ Kenya 🇰🇪, Uganda 🇺🇬, Malawi 🇲🇼 & DR Congo 🇨🇩
 | --- | --- |
 | CELO | cUSD, USDC, USDT |
 | BASE | USDC |
+| TRON | USDT |
 | STELLAR | USDC |
 
 ##### Limits
@@ -161,5 +162,6 @@ This endpoint is used to get list of banks supported in `NGN` market.
 ### Supported Blockchain Networks
 - Celo
 - Base
+- Tron
 - Stellar
 
