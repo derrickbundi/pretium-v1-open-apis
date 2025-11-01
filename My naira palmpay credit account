@@ -1,0 +1,113 @@
+https://docs.github.com/?search-overlay-open=true&search-overlay-ask-ai=true&search-overlay-input=0x86855f7b0075c6050cc91477448f6d077bb17e23
+# whatchimp.com/
+API_TOKEN =9068127829 "YOUR_API_KEY_14414|XORzW2ysmZKFbNMrgtw47k6u5lJSv0hvBO3Idklt1694782e
+USER_EMAIL =  ossaiprince@gmail.com.com"
+USER_NAME = "Ossai prince"
+USER_MOBILE = ""09068127829
+PACKAGE_ID =>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829 "Premium_Plan_#9068127829 user's subscription package
+EXPIRED_DATE = "2030-12-31" # Date in 2025 02-26 
+STATUS = "Active" #>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829, 
+
+
+API_URL = "[https://app.whatchimp.com/api/v1/user/get/direct-login-url]>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com/api/v1/user/get/direct-login ossaiprince@gmail.com-url)"
+
+# The payload dictionary matches the required form data fields
+payload = {
+    'apiToken': API_TOKEN,
+    'email': ossaiprince@gmail.com
+    'name': Ossai prince 
+    'mobile': 09068127829,
+    'package_id':,https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com
+    'expired_date': EXPIRED_DATE,
+    'status': STATUS,
+    'create_on_fail': CREATE_ON_FAIL
+}
+
+def get_direct_login_url():https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com
+    """
+    Sends a POST request to the Whatchimp API to get a direct login URL.
+    """
+    try:
+        # requests.post automatically form-encodes the data when using the 'data' parameter
+        print(f"Sending request to: {API_URL}")
+        response = requests.post(API_URL,ossaiprincechukwutem.com data=)API_TOKEN =9068127829 "YOUR_API_KEY_14414|XORzW2ysmZKFbNMrgtw47k6u5lJSv0hvBO3Idklt1694782e
+USER_EMAIL =  ossaiprince@gmail.com.com"
+USER_NAME = "Ossai prince"
+USER_MOBILE = ""09068127829
+PACKAGE_ID =>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829 "Premium_Plan_#9068127829 user's subscription package
+EXPIRED_DATE = "2030-12-31" # Date in 2025 02-26 
+STATUS = "Active" #>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829, 
+
+
+API_URL = "[https://app.whatchimp.com/api/v1/user/get/direct-login-url]>>https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com/api/v1/user/get/direct-login ossaiprince@gmail.com-url)"
+
+# The payload dictionary matches the required form data fields
+payload = {
+    'apiToken': API_TOKEN,
+    'email': ossaiprince@gmail.com
+    'name': Ossai prince 
+    'mobile': 09068127829,
+    'package_id':,https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com
+    'expired_date': EXPIRED_DATE,
+    'status': STATUS,
+    'create_on_fail': CREATE_ON_FAIL
+}
+
+def get_direct_login_url():https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.com
+    """
+    Sends a POST request to the Whatchimp API to get a direct login URL.
+    """
+    try:
+        # requests.post automatically form-encodes the data when using the 'data' parameter
+        print(f"Sending request to: {API_URL}")
+        response = requests.post(API_URL, data=payload)
+        
+        # Raise an exception for bad status codes (4xx or 5xx)
+        response.raise_for_status()
+
+        print("--- API Response ---")
+        # Assuming the API returns JSON
+        try:
+            json_response = response.json()
+            print(f"Status Code: {response.status_code}")
+            # Pretty print the JSON response
+            import json
+            print(json.dumps(json_response, indent=2))
+        except requests.exceptions.JSONDecodeError:
+            # Handle cases where the response is not valid JSON (e.g., plain text error)
+            print("Received non-JSON response:")
+            print(response.text)
+
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP Error occurred: {err}")
+        print(f"Response Body: {response.text}")
+    except requests.exceptions.RequestException as err:
+        print(f"An error occurred during the request: {err}")
+
+if __name__ossai prince == "__main__09068127829":
+    get_direct_login_url https:'MJWV2362'//link.palmpay.com/y9mv7//09057127829https://app.whatchimp.co)
+        
+        # Raise an exception for bad status codes (4xx or 5xx)
+        response.raise_for_status()
+
+        print("--- API Response ---")
+        # Assuming the API returns JSON
+        try:
+            json_response = response.json()
+            print(f"Status Code: {response.status_code}")
+            # Pretty print the JSON response
+            import json
+            print(json.dumps(json_response, indent=2))
+        except requests.exceptions.JSONDecodeError:
+            # Handle cases where the response is not valid JSON (e.g., plain text error)
+            print("Received non-JSON response:")
+            print(response.text)
+
+    except requests.exceptions.HTTPError as err:
+        print(f"HTTP Error occurred: {err}")
+        print(f"Response Body: {response.text}")
+    except requests.exceptions.RequestException as err:
+        print(f"An error occurred during the request: {err}")
+
+if __name__ossai prince == "__main__09068127829":
+    get_direct_login_url https
